@@ -1,0 +1,9 @@
+%h1 Editing list
+
+= render 'form'
+
+= link_to 'Destroy List', @list, :confirm => 'Are you sure?', :method => :delete
+\|
+= link_to 'Show', @list
+\|
+= link_to 'Back', lists_path
